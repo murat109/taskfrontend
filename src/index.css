@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 3%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+div{
+  text-align: center;
+  padding: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+trhead {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+  vertical-align: middle;
+}
+th, td {
+  border: 1px solid rgb(42, 0, 227);
+  padding: 20px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+th {
+  background-color: #f2f2f2;
+
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+textarea {
+  vertical-align: middle;
+  padding: 15px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin: 8px;
+  padding: 8px;
+}
+
+.pagination li {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+.pagination li a {
+  display: block;
+  padding: 8px 12px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.pagination .page-item:not(.active) .page-link {
+  color: #007bff;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+}
