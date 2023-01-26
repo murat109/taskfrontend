@@ -1,3 +1,8 @@
+This app is the frontend component for calling and listing the city list api.
+Run the app by command: npm start
+
+Auto generated instructions as follows: 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
